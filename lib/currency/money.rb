@@ -1,15 +1,11 @@
-#
+#Money takes rupee and paise as input and provides functionality of adding money
 class Money
 
-	attr_reader :value
+	attr_reader :paise
 
-	def initialize(value)
-		@value = value
+	def initialize(paise)
+		@paise = paise
 	end
-
-  def self.new_paise(paise)
-  	self.new(paise)
-  end
 
   def self.new_rupee(rupee)
   	self.new(rupee * 100)
@@ -20,11 +16,25 @@ class Money
   end
 
 	def +(money2)
-		Money.new(@value + money2.value)
+		Money.new(@paise + money2.paise)
 	end
 
-	def viewMoney
-		"#{@value / 100} Rs #{@value % 100} paise"
+	def paise_to_rupee
+		paise / 100
 	end
+
+	def paise_without_rupee
+		paise % 100
+	end
+
+	def to_s
+		"#{paise_to_rupee} Rs #{paise_without_rupee} paise"
+	end
+
+	def ==(money2)
+		@paise == money2.paise
+	end
+
+	private :paise_to_rupee, :paise_without_rupee
 
 end
