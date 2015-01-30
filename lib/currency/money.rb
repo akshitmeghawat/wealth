@@ -1,3 +1,4 @@
+#
 class Money
 
 	attr_reader :value
@@ -7,19 +8,23 @@ class Money
 	end
 
   def self.new_paise(paise)
-  	self.new(paise / 100)
+  	self.new(paise)
   end
 
   def self.new_rupee(rupee)
-  	self.new(rupee)
+  	self.new(rupee * 100)
   end
 
   def self.new_rupee_paise(rupee, paise)
-  	self.new(rupee + paise / 100)
+  	self.new((rupee * 100) + paise)
   end
 
 	def +(money2)
-		self.value + money2.value
+		Money.new(@value + money2.value)
+	end
+
+	def viewMoney
+		"#{@value / 100} Rs #{@value % 100} paise"
 	end
 
 end
