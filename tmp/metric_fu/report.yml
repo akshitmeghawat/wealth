@@ -1,0 +1,707 @@
+---
+:cane:
+  :total_violations: 79
+  :violations:
+    :line_style:
+    - :line: lib/currency/money.rb:4
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:6
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:7
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:8
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:11
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:15
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:18
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:19
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:20
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:23
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:24
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:26
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:27
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:28
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:30
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:31
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:32
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:34
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:35
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:36
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:38
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:39
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:40
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:41
+      :description: Line contains hard tabs
+    - :line: lib/currency/money.rb:43
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:5
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:6
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:7
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:8
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:9
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:11
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:30
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:32
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:33
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:34
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:36
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:37
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:38
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:40
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:41
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:42
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:44
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:46
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:48
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:49
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:50
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:52
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:53
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:54
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:56
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:57
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:58
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:60
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:61
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:62
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:64
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:66
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:67
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:68
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:70
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:72
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:74
+      :description: Line contains trailing whitespace
+    - :line: spec/currency/money_spec.rb:74
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:76
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:77
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:78
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:80
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:81
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:82
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:84
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:85
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:86
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:88
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:89
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:90
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:92
+      :description: Line contains hard tabs
+    - :line: spec/currency/money_spec.rb:94
+      :description: Line contains trailing whitespace
+    - :line: spec/currency/money_spec.rb:94
+      :description: Line contains hard tabs
+    :documentation:
+    - :description: No README found
+:churn:
+  :changes: []
+  :class_churn:
+  - klass: &1
+      file: lib/currency/money.rb
+      klass: Money
+    times_changed: 1
+  :method_churn:
+  - method: &2
+      file: lib/currency/money.rb
+      klass: Money
+      method: Money#-
+    times_changed: 1
+  - method: &3
+      file: lib/currency/money.rb
+      klass: Money
+      method: Money#paise_to_rupee
+    times_changed: 1
+  - method: &4
+      file: lib/currency/money.rb
+      klass: Money
+      method: Money#to_s
+    times_changed: 1
+  :changed_files:
+  - Gemfile
+  - lib/currency/money.rb
+  - spec/currency/money_spec.rb
+  :changed_classes:
+  - *1
+  :changed_methods:
+  - *2
+  - *3
+  - *4
+:flay:
+  :total_score: '0'
+  :matches: []
+:flog:
+  :total: 26.862205669071393
+  :average: 2.4420186971883084
+  :method_containers:
+  - :name: Money
+    :path: lib/currency/money.rb
+    :total_score: 19.31220566907139
+    :highest_score: 4.512205669071391
+    :average_score: 2.4140257086339236
+    :methods:
+      Money#==:
+        :operators:
+          :branch: 1.0
+          :class: 1.2
+          :==: 2.0
+          :paise: 1.2
+        :score: 4.512205669071391
+        :path: lib/currency/money.rb:38
+      Money#-:
+        :operators:
+          :paise: 1.4
+          :-: 1.2
+          :new: 1.0
+        :score: 3.5999999999999996
+        :path: lib/currency/money.rb:22
+      Money#+:
+        :operators:
+          :paise: 1.4
+          :+: 1.2
+          :new: 1.0
+        :score: 3.5999999999999996
+        :path: lib/currency/money.rb:18
+      Money#to_s:
+        :operators:
+          :paise_to_rupee: 1.0
+          :paise_without_rupee: 1.0
+        :score: 2.0
+        :path: lib/currency/money.rb:34
+      Money#none:
+        :operators:
+          :attr_reader: 1.0
+          :private: 1.0
+        :score: 2.0
+        :path: 
+      Money#paise_without_rupee:
+        :operators:
+          :lit_fixnum: 0.3
+          :%: 1.0
+        :score: 1.3
+        :path: lib/currency/money.rb:30
+      Money#paise_to_rupee:
+        :operators:
+          :lit_fixnum: 0.3
+          :/: 1.0
+        :score: 1.3
+        :path: lib/currency/money.rb:26
+      Money#initialize:
+        :operators:
+          :assignment: 1.0
+        :score: 1.0
+        :path: lib/currency/money.rb:6
+  - :name: Money::new_rupee_paise
+    :path: lib/currency/money.rb
+    :total_score: 4.0
+    :highest_score: 4.0
+    :average_score: 4.0
+    :methods:
+      Money::new_rupee_paise:
+        :operators:
+          :lit_fixnum: 0.39999999999999997
+          :*: 1.4
+          :+: 1.2
+          :new: 1.0
+        :score: 4.0
+        :path: lib/currency/money.rb:14
+  - :name: Money::new_rupee
+    :path: lib/currency/money.rb
+    :total_score: 2.55
+    :highest_score: 2.55
+    :average_score: 2.55
+    :methods:
+      Money::new_rupee:
+        :operators:
+          :lit_fixnum: 0.35
+          :*: 1.2
+          :new: 1.0
+        :score: 2.55
+        :path: lib/currency/money.rb:10
+  - :name: main
+    :path: ''
+    :total_score: 1.0
+    :highest_score: 1.0
+    :average_score: 1.0
+    :methods:
+      main#none:
+        :operators:
+          :require: 1.0
+        :score: 1.0
+        :path: 
+:saikuro:
+  :files:
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: Money
+      :complexity: 10
+      :lines: 43
+      :methods:
+      - :name: Money#==
+        :complexity: 2
+        :lines: 3
+      - :name: Money#-
+        :complexity: 1
+        :lines: 2
+      - :name: Money#paise_without_rupee
+        :complexity: 1
+        :lines: 2
+      - :name: Money#paise_to_rupee
+        :complexity: 1
+        :lines: 2
+      - :name: Money#to_s
+        :complexity: 1
+        :lines: 2
+      - :name: Money#+
+        :complexity: 1
+        :lines: 2
+      - :name: Money#self.new_rupee_paise
+        :complexity: 1
+        :lines: 2
+      - :name: Money#self.new_rupee
+        :complexity: 1
+        :lines: 2
+      - :name: Money#initialize
+        :complexity: 1
+        :lines: 2
+    :filename: lib/currency/money.rb
+  :classes:
+  - :name: Money
+    :complexity: 10
+    :lines: 43
+    :defs:
+    - :name: Money#initialize
+      :complexity: 1
+      :lines: 2
+    - :name: Money#self.new_rupee
+      :complexity: 1
+      :lines: 2
+    - :name: Money#self.new_rupee_paise
+      :complexity: 1
+      :lines: 2
+    - :name: Money#+
+      :complexity: 1
+      :lines: 2
+    - :name: Money#-
+      :complexity: 1
+      :lines: 2
+    - :name: Money#paise_to_rupee
+      :complexity: 1
+      :lines: 2
+    - :name: Money#paise_without_rupee
+      :complexity: 1
+      :lines: 2
+    - :name: Money#to_s
+      :complexity: 1
+      :lines: 2
+    - :name: Money#==
+      :complexity: 2
+      :lines: 3
+  - :name: ''
+    :complexity: 0
+    :lines: 1
+  :methods:
+  - :name: Money#==
+    :complexity: 2
+    :lines: 3
+  - :name: Money#-
+    :complexity: 1
+    :lines: 2
+  - :name: Money#paise_without_rupee
+    :complexity: 1
+    :lines: 2
+  - :name: Money#paise_to_rupee
+    :complexity: 1
+    :lines: 2
+  - :name: Money#to_s
+    :complexity: 1
+    :lines: 2
+  - :name: Money#+
+    :complexity: 1
+    :lines: 2
+  - :name: Money#self.new_rupee_paise
+    :complexity: 1
+    :lines: 2
+  - :name: Money#self.new_rupee
+    :complexity: 1
+    :lines: 2
+  - :name: Money#initialize
+    :complexity: 1
+    :lines: 2
+:reek:
+  :matches:
+  - :file_path: lib/currency/money.rb
+    :code_smells:
+    - :method: Money#+
+      :message: has the parameter name 'money2'
+      :type: UncommunicativeParameterName
+    - :method: Money#-
+      :message: has the parameter name 'money2'
+      :type: UncommunicativeParameterName
+    - :method: Money#==
+      :message: has the parameter name 'money2'
+      :type: UncommunicativeParameterName
+    - :method: Money#==
+      :message: refers to money2 more than self
+      :type: FeatureEnvy
+:roodi:
+  :total:
+  - Found 0 errors.
+  :problems: []
+:stats:
+  :codeLOC: 33
+  :testLOC: 66
+  :code_to_test_ratio: 2.0
+  :lines:
+  - :name: Libraries
+    :lines: 46
+    :loc: 33
+    :classes: 1
+    :methods: 6
+    :methods_per_class: 6
+    :loc_per_method: 3
+  - :name: Currency specs
+    :lines: 95
+    :loc: 66
+    :classes: 0
+    :methods: 0
+    :methods_per_class: 0
+    :loc_per_method: 0
+  - :name: Total
+    :lines: 141
+    :loc: 99
+    :classes: 1
+    :methods: 6
+    :methods_per_class: 6
+    :loc_per_method: 14
+:hotspots:
+  files:
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/currency/money.rb:38
+      file_name: lib/currency/money.rb
+      line_number: '38'
+      hash_key: '["lib/currency/money.rb:38", nil, nil]'
+    details:
+      flog: complexity is 4.5
+      saikuro: average complexity is 1.3
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/currency/money.rb:22
+      file_name: lib/currency/money.rb
+      line_number: '22'
+      hash_key: '["lib/currency/money.rb:22", nil, nil]'
+    details:
+      flog: complexity is 3.6
+      saikuro: complexity is 1.0
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/currency/money.rb:18
+      file_name: lib/currency/money.rb
+      line_number: '18'
+      hash_key: '["lib/currency/money.rb:18", nil, nil]'
+    details:
+      flog: complexity is 3.6
+      saikuro: complexity is 1.0
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/currency/money.rb:14
+      file_name: lib/currency/money.rb
+      line_number: '14'
+      hash_key: '["lib/currency/money.rb:14", nil, nil]'
+    details:
+      flog: complexity is 4.0
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/currency/money.rb:34
+      file_name: lib/currency/money.rb
+      line_number: '34'
+      hash_key: '["lib/currency/money.rb:34", nil, nil]'
+    details:
+      flog: complexity is 2.0
+      saikuro: complexity is 1.0
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/currency/money.rb:10
+      file_name: lib/currency/money.rb
+      line_number: '10'
+      hash_key: '["lib/currency/money.rb:10", nil, nil]'
+    details:
+      flog: complexity is 2.5
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/currency/money.rb:30
+      file_name: lib/currency/money.rb
+      line_number: '30'
+      hash_key: '["lib/currency/money.rb:30", nil, nil]'
+    details:
+      flog: complexity is 1.3
+      saikuro: complexity is 1.0
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/currency/money.rb:26
+      file_name: lib/currency/money.rb
+      line_number: '26'
+      hash_key: '["lib/currency/money.rb:26", nil, nil]'
+    details:
+      flog: complexity is 1.3
+      saikuro: complexity is 1.0
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/currency/money.rb:6
+      file_name: lib/currency/money.rb
+      line_number: '6'
+      hash_key: '["lib/currency/money.rb:6", nil, nil]'
+    details:
+      flog: complexity is 1.0
+      saikuro: complexity is 1.0
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/currency/money.rb
+      file_name: lib/currency/money.rb
+      line_number: 
+      hash_key: '["lib/currency/money.rb", nil, nil]'
+    details:
+      reek: found 4 code smells
+  classes:
+  - location:
+      class_name: Money
+      method_name: 
+      file_path: lib/currency/money.rb:38
+      file_name: lib/currency/money.rb
+      line_number: '38'
+      hash_key: '["lib/currency/money.rb:38", "Money", nil]'
+    details:
+      flog: average complexity is 2.6
+      saikuro: average complexity is 1.1
+      reek: found 4 code smells
+  - location:
+      class_name: main
+      method_name: 
+      file_path: 
+      file_name: 
+      line_number: 
+      hash_key: '[nil, "main", nil]'
+    details:
+      flog: complexity is 1.0
+  methods:
+  - location:
+      class_name: Money
+      method_name: Money#==
+      file_path: lib/currency/money.rb:38
+      file_name: lib/currency/money.rb
+      line_number: '38'
+      hash_key: '["lib/currency/money.rb:38", "Money", "Money#=="]'
+      simple_method_name: "#=="
+    details:
+      flog: complexity is 4.5
+      saikuro: complexity is 2.0
+      reek: found 2 code smells
+  - location:
+      class_name: Money
+      method_name: Money#-
+      file_path: lib/currency/money.rb:22
+      file_name: lib/currency/money.rb
+      line_number: '22'
+      hash_key: '["lib/currency/money.rb:22", "Money", "Money#-"]'
+      simple_method_name: "#-"
+    details:
+      flog: complexity is 3.6
+      saikuro: complexity is 1.0
+      reek: found 1 code smells
+  - location:
+      class_name: Money
+      method_name: Money#+
+      file_path: lib/currency/money.rb:18
+      file_name: lib/currency/money.rb
+      line_number: '18'
+      hash_key: '["lib/currency/money.rb:18", "Money", "Money#+"]'
+      simple_method_name: "#+"
+    details:
+      flog: complexity is 3.6
+      saikuro: complexity is 1.0
+      reek: found 1 code smells
+  - location:
+      class_name: Money
+      method_name: Money#new_rupee_paise
+      file_path: lib/currency/money.rb:14
+      file_name: lib/currency/money.rb
+      line_number: '14'
+      hash_key: '["lib/currency/money.rb:14", "Money", "Money#new_rupee_paise"]'
+      simple_method_name: "#new_rupee_paise"
+    details:
+      flog: complexity is 4.0
+  - location:
+      class_name: Money
+      method_name: Money#to_s
+      file_path: lib/currency/money.rb:34
+      file_name: lib/currency/money.rb
+      line_number: '34'
+      hash_key: '["lib/currency/money.rb:34", "Money", "Money#to_s"]'
+      simple_method_name: "#to_s"
+    details:
+      flog: complexity is 2.0
+      saikuro: complexity is 1.0
+  - location:
+      class_name: Money
+      method_name: Money#new_rupee
+      file_path: lib/currency/money.rb:10
+      file_name: lib/currency/money.rb
+      line_number: '10'
+      hash_key: '["lib/currency/money.rb:10", "Money", "Money#new_rupee"]'
+      simple_method_name: "#new_rupee"
+    details:
+      flog: complexity is 2.5
+  - location:
+      class_name: Money
+      method_name: Money#paise_without_rupee
+      file_path: lib/currency/money.rb:30
+      file_name: lib/currency/money.rb
+      line_number: '30'
+      hash_key: '["lib/currency/money.rb:30", "Money", "Money#paise_without_rupee"]'
+      simple_method_name: "#paise_without_rupee"
+    details:
+      flog: complexity is 1.3
+      saikuro: complexity is 1.0
+  - location:
+      class_name: Money
+      method_name: Money#paise_to_rupee
+      file_path: lib/currency/money.rb:26
+      file_name: lib/currency/money.rb
+      line_number: '26'
+      hash_key: '["lib/currency/money.rb:26", "Money", "Money#paise_to_rupee"]'
+      simple_method_name: "#paise_to_rupee"
+    details:
+      flog: complexity is 1.3
+      saikuro: complexity is 1.0
+  - location:
+      class_name: Money
+      method_name: Money#initialize
+      file_path: lib/currency/money.rb:6
+      file_name: lib/currency/money.rb
+      line_number: '6'
+      hash_key: '["lib/currency/money.rb:6", "Money", "Money#initialize"]'
+      simple_method_name: "#initialize"
+    details:
+      flog: complexity is 1.0
+      saikuro: complexity is 1.0
+  - location:
+      class_name: Money
+      method_name: Money#none
+      file_path: 
+      file_name: 
+      line_number: 
+      hash_key: '[nil, "Money", "Money#none"]'
+      simple_method_name: "#none"
+    details:
+      flog: complexity is 2.0
+  - location:
+      class_name: main
+      method_name: main#none
+      file_path: 
+      file_name: 
+      line_number: 
+      hash_key: '[nil, "main", "main#none"]'
+      simple_method_name: "#none"
+    details:
+      flog: complexity is 1.0
+  - location:
+      class_name: Money
+      method_name: Money#self.new_rupee_paise
+      file_path: lib/currency/money.rb:38
+      file_name: lib/currency/money.rb
+      line_number: '38'
+      hash_key: '["lib/currency/money.rb:38", "Money", "Money#self.new_rupee_paise"]'
+      simple_method_name: "#self.new_rupee_paise"
+    details:
+      saikuro: complexity is 1.0
+  - location:
+      class_name: Money
+      method_name: Money#self.new_rupee
+      file_path: lib/currency/money.rb:38
+      file_name: lib/currency/money.rb
+      line_number: '38'
+      hash_key: '["lib/currency/money.rb:38", "Money", "Money#self.new_rupee"]'
+      simple_method_name: "#self.new_rupee"
+    details:
+      saikuro: complexity is 1.0
