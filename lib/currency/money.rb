@@ -9,6 +9,10 @@ class Money
 		@paise = paise
 	end
 
+	def self.new_paise(paise)
+		self.new(paise)
+	end
+
   def self.new_rupee(rupee)
   	self.new(rupee * 100)
   end
@@ -42,8 +46,8 @@ class Money
 		@paise == money2.paise
 	end
 
-	def <=>(other)
-   self.paise <=> other.paise
+	def <=>(money2)
+   self.paise <=> money2.paise
   end
 
 	private :paise_to_rupee, :paise_without_rupee

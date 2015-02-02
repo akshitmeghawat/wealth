@@ -4,11 +4,12 @@ describe 'Money' do
 
 	let(:money1) { Money.new_rupee(45) }
 	let(:money2) { Money.new_rupee(55) }
-	let(:money3) { Money.new(67) }
+	let(:money3) { Money.new_paise(67) }
 	let(:money5) { Money.new_rupee_paise(0, 67)}
 	let(:money4) { Money.new_rupee_paise(45, 76) }
 
 	describe 'Equality' do
+
     it 'should follow reflexivity' do
       expect(money1).to eq(money1)
     end
@@ -102,23 +103,23 @@ describe 'Money' do
   describe 'Comparision of money' do
 
   	it 'comaprison of money less than condition' do
-  		expect(money1 < money2).to eq true
+  		expect(money1 < money2).to eq(true)
   	end
 
   	it 'comaprison of money less than condition' do
-  		expect(money1 > money2).to eq false
+  		expect(money1 > money2).to eq(false)
   	end
 
   	it 'comaprison of money less than condition' do
-  		expect(money1 == money2).to eq false
+  		expect(money1 == money2).to eq(false)
   	end
 
   	it 'comaprison of money less than condition' do
-  		expect(money1 <= money4).to eq true
+  		expect(money1 <= money4).to eq(true)
   	end
 
   	it 'comaprison of money less than condition' do
-  		expect(money1 >= money3).to eq true
+  		expect(money1 >= money3).to eq(true)
   	end
 
   end
