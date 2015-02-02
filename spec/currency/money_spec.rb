@@ -27,13 +27,6 @@ describe 'Money' do
 
   end
 
-   describe 'Sorting of money' do
-
-  	it 'sorting of money objects based on attribute: value' do
-  		expect(money_sort([money2,money3,money1]).to eq([money3, money1, money2])
-  	end
-  end
-
 	describe 'represenation of money' do
 
 		it 'viewing the money with both rupee and paise' do
@@ -98,5 +91,12 @@ describe 'Money' do
 
 	end
 
+	describe 'Sorting of money' do
+
+  	it 'sorting of money objects based on attribute: value' do
+  		expect([money2,money3,money1].sort).to  eq([money3, money1, money2])
+  	end
+
+  end
 
 end

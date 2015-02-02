@@ -14,7 +14,7 @@
       <img src="./assets/0.8.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-02T11:17:47+05:30">2015-02-02T11:17:47+05:30</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-02T12:27:03+05:30">2015-02-02T12:27:03+05:30</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         5.78
+         5.7
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>2</b> files in total.
-    <b>23</b> relevant lines. 
-    <span class="green"><b>23</b> lines covered</span> and
+    <b>25</b> relevant lines. 
+    <span class="green"><b>25</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -63,11 +63,11 @@
       <tr>
         <td class="strong"><a href="#0632005c231ef48a8850791a5b8b9da1de65be37" class="src_link" title="lib/currency/money.rb">lib/currency/money.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>45</td>
-        <td>22</td>
-        <td>22</td>
+        <td>49</td>
+        <td>24</td>
+        <td>24</td>
         <td>0</td>
-        <td>6.0</td>
+        <td>5.9</td>
       </tr>
       
     </tbody>
@@ -115,8 +115,8 @@
     <h3>lib/currency/money.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>22</b> relevant lines. 
-      <span class="green"><b>22</b> lines covered</span> and
+      <b>24</b> relevant lines. 
+      <span class="green"><b>24</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -127,7 +127,7 @@
         <li class="never" data-hits="" data-linenumber="1">
           
           
-          <code class="ruby">#Money takes rupee and paise as input and provides functionality of adding money</code>
+          <code class="ruby">#Money takes rupee and paise as input and provides functionality of adding, subtracting money</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="2">
@@ -160,8 +160,8 @@
           <code class="ruby">	def initialize(paise)</code>
         </li>
       
-        <li class="covered" data-hits="46" data-linenumber="7">
-          <span class="hits">46</span>
+        <li class="covered" data-hits="49" data-linenumber="7">
+          <span class="hits">49</span>
           
           <code class="ruby">		@paise = paise</code>
         </li>
@@ -184,8 +184,8 @@
           <code class="ruby">  def self.new_rupee(rupee)</code>
         </li>
       
-        <li class="covered" data-hits="16" data-linenumber="11">
-          <span class="hits">16</span>
+        <li class="covered" data-hits="18" data-linenumber="11">
+          <span class="hits">18</span>
           
           <code class="ruby">  	self.new(rupee * 100)</code>
         </li>
@@ -379,16 +379,40 @@
         <li class="covered" data-hits="1" data-linenumber="43">
           <span class="hits">1</span>
           
-          <code class="ruby">	private :paise_to_rupee, :paise_without_rupee</code>
+          <code class="ruby">	def &lt;=&gt;(other)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="44">
+        <li class="covered" data-hits="3" data-linenumber="44">
+          <span class="hits">3</span>
+          
+          <code class="ruby">   self.paise &lt;=&gt; other.paise</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="45">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="46">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="45">
+        <li class="covered" data-hits="1" data-linenumber="47">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	private :paise_to_rupee, :paise_without_rupee</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
           
           
           <code class="ruby">end</code>

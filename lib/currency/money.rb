@@ -1,4 +1,4 @@
-#Money takes rupee and paise as input and provides functionality of adding money
+#Money takes rupee and paise as input and provides functionality of adding, subtracting money
 class Money
 
 	attr_reader :paise
@@ -39,6 +39,10 @@ class Money
 		return false unless money2.class == Money
 		@paise == money2.paise
 	end
+
+	def <=>(other)
+   self.paise <=> other.paise
+  end
 
 	private :paise_to_rupee, :paise_without_rupee
 
