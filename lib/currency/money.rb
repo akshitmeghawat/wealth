@@ -20,20 +20,20 @@ class Money
 	end
 
 	def paise_to_rupee
-		paise / 100
+		@paise / 100
 	end
 
 	def paise_without_rupee
-		paise % 100
+		@paise % 100
 	end
 
 	def to_s
 		"#{paise_to_rupee} Rs #{paise_without_rupee} paise"
 	end
 
-	def ==(money2)
-		@paise == money2.paise
-	end
+	#def ==(money2)
+	#	@paise == money2.paise
+	#end
 
 	private :paise_to_rupee, :paise_without_rupee
 

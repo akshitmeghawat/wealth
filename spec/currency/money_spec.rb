@@ -26,25 +26,25 @@ describe 'Money' do
 	describe 'Addition of Money' do
 
 		it 'adding two inputs only in rupee' do
-			expect((money1 + money2) == Money.new_rupee(100)).to eq(true)
+			expect(money1 + money2).to eq(Money.new_rupee(100))
 		end
 
 		it 'adding one input of rupee and one input of paise' do
-			expect((money1 + money3) == Money.new_rupee_paise(45, 67)).to eq(true)
+			expect(money1 + money3).to eq(Money.new_rupee_paise(45, 67))
 		end
 
 		it 'adding one input of rupee and one input of rupee/paise' do
-			expect((money2 + money4) == Money.new_rupee_paise(100, 76)).to eq(true)
+			expect(money2 + money4).to eq(Money.new_rupee_paise(100, 76))
 		end
 
 		it 'adding one input of paise and one input of rupee/paise' do
-			expect((money3 + money4) == Money.new_rupee_paise(46, 43)).to eq(true)
+			expect(money3 + money4).to eq(Money.new_rupee_paise(46, 43))
 		end
 
 		describe 'Addition for more than two Moneys' do
 
 			it 'adding three moneys' do
-				expect((money1 + money2 + money3) == Money.new_rupee_paise(100, 67)).to eq(true)
+				expect(money1 + money2 + money3).to eq(Money.new_rupee_paise(100, 67))
 			end
 
 		end
