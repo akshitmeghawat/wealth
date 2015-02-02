@@ -1,7 +1,9 @@
-#Money takes rupee and paise as input and provides functionality of adding, subtracting money
+#Money takes rupee and paise as input and provides functionality of adding, subtracting, sorting and comparing money
 class Money
 
 	attr_reader :paise
+ 
+  include Comparable
 
 	def initialize(paise)
 		@paise = paise

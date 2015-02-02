@@ -93,8 +93,32 @@ describe 'Money' do
 
 	describe 'Sorting of money' do
 
-  	it 'sorting of money objects based on attribute: value' do
+  	it 'sorting of money objects based on attribute: value overloading <=> operator' do
   		expect([money2,money3,money1].sort).to  eq([money3, money1, money2])
+  	end
+
+  end
+
+  describe 'Comparision of money' do
+
+  	it 'comaprison of money less than condition' do
+  		expect(money1 < money2).to eq true
+  	end
+
+  	it 'comaprison of money less than condition' do
+  		expect(money1 > money2).to eq false
+  	end
+
+  	it 'comaprison of money less than condition' do
+  		expect(money1 == money2).to eq false
+  	end
+
+  	it 'comaprison of money less than condition' do
+  		expect(money1 <= money4).to eq true
+  	end
+
+  	it 'comaprison of money less than condition' do
+  		expect(money1 >= money3).to eq true
   	end
 
   end
